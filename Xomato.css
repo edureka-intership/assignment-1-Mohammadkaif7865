@@ -99,7 +99,7 @@ header h1 {
     top: 10vh;
 }
 
-select {
+.dropdown select {
     width: 49%;
     height: 80%;
     border-radius: 10%;
@@ -202,18 +202,12 @@ a {
 footer {
     background-color: black;
     color: white;
-    height: 10vh;
+    height: 20vh;
     margin-top: 5%;
 }
 
 footer p {
     text-align: center;
-}
-
-.contact {
-    float: left;
-    width: 33%;
-    border-right: 3px solid white;
 }
 
 .foot {
@@ -287,5 +281,50 @@ footer p {
 }
 
 .rest-info p {
+    margin: 5px;
+}
+
+.restaurants::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+/* Track */
+
+.restaurants::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.restaurants::-webkit-scrollbar-thumb {
+    background: #ff5b5bfc;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.restaurants::-webkit-scrollbar-thumb:hover {
+    background: #ff5b5bfc;
+}
+
+.checked {
+    color: orange;
+}
+
+.fetch {
+    text-align: left;
+    float: left;
+    padding: 20px;
+    width: 33%;
+}
+
+.fetch img {
+    height: 50px;
+    width: 50px;
+    float: left;
     margin: 5px;
 }
