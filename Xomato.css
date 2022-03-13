@@ -386,6 +386,25 @@ footer p {
     color: white;
 }
 
+.filter2 {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 20px #908a8afc;
+    border-radius: 20%;
+}
+
+.filter2 .ft,
+.filter2 .fr {
+    display: inline-block;
+    width: 45%;
+}
+
+@media screen and (min-width: 836px) {
+    .filter2 {
+        display: none;
+    }
+}
+
 @media screen and (max-width:836px) {
     .logo1 {
         display: none;
