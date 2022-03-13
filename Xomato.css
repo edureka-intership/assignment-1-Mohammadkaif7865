@@ -111,33 +111,6 @@ header h1 {
     margin: auto;
 }
 
-.quick-search::-webkit-scrollbar {
-    width: 20px;
-}
-
-
-/* Track */
-
-.quick-search::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
-}
-
-
-/* Handle */
-
-.quick-search::-webkit-scrollbar-thumb {
-    background: #ff5b5bfc;
-    border-radius: 10px;
-}
-
-
-/* Handle on hover */
-
-.quick-search::-webkit-scrollbar-thumb:hover {
-    background: #ff5b5bfc;
-}
-
 .quick-search h1 {
     margin-left: 5%;
     margin-right: 50px;
