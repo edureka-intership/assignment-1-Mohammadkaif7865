@@ -94,11 +94,11 @@ header h1 {
 
 .dropdown {
     /* border: 5px solid blue; */
-    width: 70vw;
-    height: 10vh;
+    width: 60vw;
+    height: 10%;
     position: relative;
     left: 20vw;
-    top: 16vh;
+    top: 22%;
 }
 
 .dropdown select {
@@ -485,11 +485,11 @@ footer p {
     }
     .dropdown {
         /* border: 5px solid blue; */
-        width: 90vw;
-        height: 6vh;
+        width: 80vw;
+        height: 8%;
         position: relative;
-        left: 5vw;
-        top: 14vh;
+        left: 8vw;
+        top: 22%;
     }
     .dropdown select {
         font-size: 10px;
@@ -498,5 +498,8 @@ footer p {
         position: relative;
         left: 35%;
         top: 10%;
+    }
+    .search h1 {
+        font-size: 20px;
     }
 }
