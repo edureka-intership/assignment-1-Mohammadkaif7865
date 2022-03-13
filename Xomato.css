@@ -241,7 +241,6 @@ footer p {
 
 .restaurants {
     width: 74%;
-    margin: 5px;
     height: 90%;
     display: inline-block;
     font-size: 13px;
@@ -384,10 +383,13 @@ footer p {
     }
 }
 
-@media screen and (max-width:836px) {
+@media screen and (max-width:465px) {
     .logo1 {
         display: none;
     }
+}
+
+@media screen and (max-width:836px) {
     .logo {
         width: 70px;
         height: 70px;
@@ -469,7 +471,6 @@ footer p {
     }
     .restaurants {
         width: 100%;
-        margin: 5px;
         display: inline-block;
     }
     .template {
