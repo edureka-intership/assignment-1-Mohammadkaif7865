@@ -235,6 +235,8 @@ footer p {
     float: left;
     border-radius: 10%;
     box-shadow: 10px 10px 20px #908a8afc;
+    border-top: 10px solid #ff5b5bfc;
+    border-bottom: 10px solid #ff5b5bfc;
 }
 
 .restaurants {
@@ -365,12 +367,15 @@ footer p {
     margin: 20px;
     box-shadow: 10px 10px 20px #908a8afc;
     border-radius: 20%;
+    border-top: 10px solid #ff5b5bfc;
+    border-bottom: 10px solid #ff5b5bfc;
 }
 
 .filter2 .ft,
 .filter2 .fr {
     display: inline-block;
     width: 45%;
+    border-right: 5px solid black;
 }
 
 @media screen and (min-width: 836px) {
