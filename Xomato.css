@@ -65,7 +65,7 @@ header h1 {
     border-radius: 50%;
     display: inline-block;
     position: relative;
-    left: 40%;
+    left: 44%;
     top: 10%;
     animation-duration: 5s;
     animation-name: rota;
@@ -493,5 +493,10 @@ footer p {
     }
     .dropdown select {
         font-size: 10px;
+    }
+    #logo {
+        position: relative;
+        left: 35%;
+        top: 10%;
     }
 }
