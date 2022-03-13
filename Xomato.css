@@ -252,16 +252,15 @@ footer p {
 
 .content {
     width: 100vw;
-    /* height: 100vh; */
 }
 
 .filter {
-    width: 25%;
-    height: 70%;
+    width: 200px;
+    height: 400px;
     margin-top: 5px;
     margin-left: 5%;
     margin-right: 7px;
-    display: inline-block;
+    float: left;
     border-radius: 10%;
     box-shadow: 10px 10px 20px #908a8afc;
 }
@@ -287,14 +286,16 @@ footer p {
     width: 400px;
     height: 300px;
     border-radius: 10%;
-    margin: 5%;
+    margin: 10px;
+    float: left;
     box-shadow: 10px 10px 20px #908a8afc;
 }
 
 .template:hover {
-    width: 450px;
-    height: 350px;
+    transform: scale(1.1);
     border-radius: 10%;
+    margin: 10px;
+    float: left;
     box-shadow: 10px 10px 20px #908a8afc;
 }
 
@@ -364,9 +365,10 @@ footer p {
 }
 
 .pagination {
-    float: right;
-    text-align: center;
-    width: 67%;
+    margin: auto;
+    margin-top: 25px;
+    float: left;
+    width: 100%;
 }
 
 .pagination a {
@@ -387,14 +389,6 @@ footer p {
 @media screen and (max-width:836px) {
     .logo1 {
         display: none;
-    }
-    .filter {
-        display: none;
-    }
-    .pagination {
-        float: left;
-        text-align: center;
-        width: 67%;
     }
     .logo {
         width: 70px;
@@ -471,5 +465,30 @@ footer p {
             margin-right: 15px;
             height: 200px;
         }
+    }
+    .filter {
+        display: none;
+        ;
+    }
+    .restaurants {
+        width: 100%;
+        margin: 5px;
+        display: inline-block;
+    }
+    .template {
+        width: 320px;
+        height: 240px;
+        border-radius: 10%;
+        margin: 10px;
+        float: left;
+        font-size: 10px;
+        box-shadow: 10px 10px 20px #908a8afc;
+    }
+    .template:hover {
+        transform: scale(1.1);
+        border-radius: 10%;
+        /* margin: 10px; */
+        float: left;
+        box-shadow: 10px 10px 20px #908a8afc;
     }
 }
