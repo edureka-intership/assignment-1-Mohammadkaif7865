@@ -229,9 +229,8 @@ footer p {
 
 .filter {
     width: 200px;
-    height: 400px;
+    height: 500px;
     margin-top: 5px;
-    margin-left: 5%;
     margin-right: 7px;
     float: left;
     border-radius: 10%;
@@ -239,10 +238,11 @@ footer p {
 }
 
 .restaurants {
-    width: 67%;
+    width: 74%;
     margin: 5px;
     height: 90%;
     display: inline-block;
+    font-size: 13px;
 }
 
 .food-type {
@@ -256,10 +256,11 @@ footer p {
 }
 
 .template {
-    width: 400px;
+    width: 46%;
     height: 300px;
     border-radius: 10%;
     margin: 10px;
+    font-size: 13px;
     float: left;
     box-shadow: 10px 10px 20px #908a8afc;
 }
@@ -460,7 +461,6 @@ footer p {
     }
     .filter {
         display: none;
-        ;
     }
     .restaurants {
         width: 100%;
