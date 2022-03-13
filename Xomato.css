@@ -320,14 +320,14 @@ footer p {
     margin: 5px;
 }
 
-.restaurants::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 20px;
 }
 
 
 /* Track */
 
-.restaurants::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
@@ -335,15 +335,15 @@ footer p {
 
 /* Handle */
 
-.restaurants::-webkit-scrollbar-thumb {
-    background: #ff5b5bfc;
+::-webkit-scrollbar-thumb {
+    background: blue;
     border-radius: 10px;
 }
 
 
 /* Handle on hover */
 
-.restaurants::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #ff5b5bfc;
 }
 
