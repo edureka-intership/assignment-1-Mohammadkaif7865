@@ -512,8 +512,8 @@ footer p {
     }
     .dropdown {
         /* border: 5px solid blue; */
-        width: 96vw;
-        height: 8vh;
+        width: 90vw;
+        height: 6vh;
         position: relative;
         left: 5vw;
         top: 14vh;
