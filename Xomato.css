@@ -45,12 +45,12 @@ header h1 {
 }
 
 .search {
-    height: 400px;
+    height: 500px;
     width: 100%;
     background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
     background-repeat: no-repeat;
     /* background-size: cover; */
-    background-size: 100% 400px;
+    background-size: 100% 500px;
 }
 
 .search h1 {
@@ -98,7 +98,7 @@ header h1 {
     height: 10vh;
     position: relative;
     left: 20vw;
-    top: 10vh;
+    top: 16vh;
 }
 
 .dropdown select {
@@ -420,7 +420,7 @@ footer p {
     header h1 {
         float: left;
         /* margin-top: 30px; */
-        font-size: 35px;
+        font-size: 33px;
         margin-bottom: 30px;
         margin-left: 5px;
         margin-right: 5px;
@@ -509,5 +509,16 @@ footer p {
         /* margin: 10px; */
         float: left;
         box-shadow: 10px 10px 20px #908a8afc;
+    }
+    .dropdown {
+        /* border: 5px solid blue; */
+        width: 96vw;
+        height: 8vh;
+        position: relative;
+        left: 5vw;
+        top: 14vh;
+    }
+    .dropdown select {
+        font-size: 10px;
     }
 }
