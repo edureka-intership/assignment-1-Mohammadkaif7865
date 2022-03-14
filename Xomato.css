@@ -383,6 +383,90 @@ footer p {
     border-right: 5px solid black;
 }
 
+.description {
+    padding: 10px;
+    margin: 10px;
+    position: sticky;
+}
+
+.d-rest-image {
+    width: 45%;
+    height: 350px;
+    display: inline-block;
+}
+
+.d-rest-image img {
+    border-radius: 20%;
+    width: 100%;
+    height: 100%;
+}
+
+.d-rest-info {
+    margin-left: 20px;
+    float: right;
+    width: 45%;
+}
+
+.rest-content {}
+
+.rest-aside {
+    width: 30%;
+    float: left;
+    text-align: right;
+    padding: 2%;
+}
+
+.rest-main {
+    width: 67%;
+    display: inline-block;
+    border-left: 4px solid rgb(221, 206, 206);
+}
+
+.rest-main h1 {
+    text-align: center;
+}
+
+.rest-aside a h4:hover {
+    color: gold;
+    border-right: 5px solid gold;
+}
+
+.rest-aside a h4 {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.demo {
+    height: 250px;
+    display: inline-block;
+    width: 90%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.demo:hover {
+    transform: scale(1.1);
+}
+
+.left {
+    height: 100%;
+    width: 45%;
+    display: inline-block;
+}
+
+.left img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding: 5px;
+}
+
 @media screen and (min-width: 836px) {
     .filter2 {
         display: none;
