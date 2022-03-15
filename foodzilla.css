@@ -234,11 +234,14 @@ footer p {
 
 .filter {
     width: 200px;
-    height: 500px;
+    /* height: 500px; */
     margin-top: 5px;
     margin-right: 7px;
     margin-left: 7px;
     float: left;
+    position: sticky;
+    top: 0px;
+    height: 100%;
     border-radius: 10%;
     box-shadow: 10px 10px 20px #908a8afc;
     border-top: 10px solid #ff5b5bfc;
@@ -372,6 +375,10 @@ footer p {
     margin: 20px;
     box-shadow: 10px 10px 20px #908a8afc;
     border-radius: 20%;
+    top: 0px;
+    height: 100%;
+    position: sticky;
+    background-color: white;
     border-top: 10px solid #ff5b5bfc;
     border-bottom: 10px solid #ff5b5bfc;
 }
@@ -420,7 +427,7 @@ footer p {
     text-align: right;
     padding: 2%;
     position: sticky;
-    top: 4px;
+    top: 0px;
     height: 100%;
 }
 
@@ -431,6 +438,9 @@ footer p {
     border-top: 5px solid rgb(148, 140, 140);
     border-bottom: 5px solid rgb(148, 140, 140);
     position: sticky;
+    background-color: white;
+    top: 0px;
+    height: 100%;
 }
 
 #ppd .rest-aside2 h4 {
