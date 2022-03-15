@@ -386,7 +386,6 @@ footer p {
 .description {
     padding: 10px;
     margin: 10px;
-    position: sticky;
 }
 
 .d-rest-image {
@@ -510,6 +509,16 @@ footer p {
 @media screen and (max-width:465px) {
     .logo1 {
         display: none;
+    }
+    .description {
+        padding: 5px;
+        font-size: 10px;
+        margin: 5px;
+    }
+    .d-rest-info {
+        margin-left: 10px;
+        float: right;
+        width: 50%;
     }
 }
 
